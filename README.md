@@ -24,7 +24,7 @@ The animation below illustrates the optimization behavior of the 100 MWh battery
 ### Interactive Streamlit Dashboard
 Access the live cloud interface to test custom parameters, run real-time API queries against ENTSO-E, and interact with solar forecasting components:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://berlin-solar-pv-bess-optimization-9udsteuu6ixbzlkgsaastv.streamlit.app/)
 
 ## Repository Structure
 ```text
