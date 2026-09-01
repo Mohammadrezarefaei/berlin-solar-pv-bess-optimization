@@ -19,7 +19,7 @@ End-to-end data science and mathematical optimization platform featuring machine
 ### BESS Market Arbitrage Dispatch
 The animation below illustrates the optimization behavior of the 100 MWh battery storage system over a 24-hour cycle, contrasting fluctuating day-ahead electricity prices with real-time charging/discharging rates and state-of-charge (SoC) dynamics:
 
-![BESS Optimization Animation](assets/bess_optimization_animation.gif)
+![BESS Optimization Animation](bess_optimization_animation.gif)
 
 ### Interactive Streamlit Dashboard
 Access the live cloud interface to test custom parameters, run real-time API queries against ENTSO-E, and interact with solar forecasting components:
@@ -31,7 +31,6 @@ Access the live cloud interface to test custom parameters, run real-time API que
 berlin-solar-pv-bess-optimization/
 ├── .github/
 ├── assets/
-│   └── bess_optimization_animation.gif
 ├── notebooks/
 │   └── berlin_pv_forecast_bess_optimization.ipynb
 ├── src/
@@ -39,3 +38,4 @@ berlin-solar-pv-bess-optimization/
 ├── .gitignore
 ├── README.md
 ├── app.py
+└── bess_optimization_animation.gif
