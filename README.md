@@ -29,15 +29,13 @@ Access the live cloud interface to test custom parameters, run real-time API que
 ## Repository Structure
 ```text
 berlin-solar-pv-bess-optimization/
-├── .github/workflows/
+├── .github/
 ├── assets/
 │   └── bess_optimization_animation.gif
 ├── notebooks/
 │   └── berlin_pv_forecast_bess_optimization.ipynb
 ├── src/
-│   ├── bess_optimizer.py
-│   └── forecaster.py
 ├── tests/
+├── .gitignore
+├── README.md
 ├── app.py
-├── requirements.txt
-└── README.md
