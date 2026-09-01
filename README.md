@@ -13,3 +13,31 @@ End-to-end data science and mathematical optimization platform featuring machine
 - **Data / APIs**: Pandas, NumPy, ENTSO-E API (`entsoe-py`)
 - **Visualization**: Matplotlib (Dark Theme), Streamlit
 - **CI/CD & Testing**: GitHub Actions, Pytest
+
+## Visuals & Dashboard Preview
+
+### BESS Market Arbitrage Dispatch
+The animation below illustrates the optimization behavior of the 100 MWh battery storage system over a 24-hour cycle, contrasting fluctuating day-ahead electricity prices with real-time charging/discharging rates and state-of-charge (SoC) dynamics:
+
+![BESS Optimization Animation](assets/bess_optimization_animation.gif)
+
+### Interactive Streamlit Dashboard
+Access the live cloud interface to test custom parameters, run real-time API queries against ENTSO-E, and interact with solar forecasting components:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+
+## Repository Structure
+```text
+berlin-solar-pv-bess-optimization/
+├── .github/workflows/
+├── assets/
+│   └── bess_optimization_animation.gif
+├── notebooks/
+│   └── berlin_pv_forecast_bess_optimization.ipynb
+├── src/
+│   ├── bess_optimizer.py
+│   └── forecaster.py
+├── tests/
+├── app.py
+├── requirements.txt
+└── README.md
